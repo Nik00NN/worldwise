@@ -7,6 +7,6 @@ const SpinnerFullPage = () => {
       <Spinner />
     </div>
   );
-}
+};
 
 export default SpinnerFullPage;
