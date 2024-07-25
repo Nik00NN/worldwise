@@ -15,10 +15,18 @@
   color: var(--color-dark--1);
 }
 
+.primary:hover {
+  background-color:forestgreen;
+}
+
 .back {
   font-weight: 600;
   background: none;
   border: 1px solid currentColor;
+}
+
+.back:hover{
+  color: #db962e;
 }
 
 .position {
@@ -29,7 +37,11 @@
   bottom: 4rem;
   left: 50%;
   transform: translateX(-50%);
-  background-color: var(--color-brand--2);
+  background-color: var(--color-brand--1);
   color: var(--color-dark--1);
   box-shadow: 0 0.4rem 1.2rem rgba(36, 42, 46, 0.16);
+}
+
+.position:hover{
+  background-color: #db962e;
 }
